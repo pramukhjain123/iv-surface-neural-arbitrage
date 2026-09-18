@@ -1,0 +1,10 @@
+metric,value
+rows_base,307458.0
+rows_multi,308048.0
+slices_base,9438.0
+slices_multi,9432.0
+common_quotes,307037.0
+median_k_shift_bp,0.59565523504463
+median_iv_shift_volpts,0.00013914028428319014
+mean_abs_iv_shift_volpts,0.12084429068543401
+p95_abs_iv_shift_volpts,0.3911789097994226

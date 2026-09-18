@@ -1,0 +1,12 @@
+method,stage,value,n_units
+NN_v3,fit_18000steps_per_fold_mean_s,120.05882352941175,1
+NN_v3,fit_18000steps_total_17folds_s,2040.9999999999998,17
+NN_v3,predict_taskA_taskB_plus_grid_per_fold_mean_s,0.8269171052508884,1
+SVI,fit_predict_100_slices_s,8.492985010147095,100
+SVI,fit_predict_per_slice_mean_s,0.08492985010147094,1
+SSVI,fit_predict_100_slices_s,3.768979072570801,100
+SSVI,fit_predict_per_slice_mean_s,0.03768979072570801,1
+ThinPlate,fit_predict_30_days_s,0.48331451416015625,30
+ThinPlate,fit_predict_per_day_mean_s,0.01611048380533854,1
+CubicSpline,fit_predict_30_days_s,0.3064868450164795,30
+CubicSpline,fit_predict_per_day_mean_s,0.010216228167215983,1

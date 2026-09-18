@@ -1,0 +1,7 @@
+pandas>=2.2
+numpy>=1.26
+scipy>=1.12
+duckdb>=1.0        # parquet I/O -- pyarrow was impractical to install in the bridge shell (see 00_inventory note)
+scikit-learn>=1.4
+torch>=2.2         # Phase 3 model
+matplotlib>=3.8

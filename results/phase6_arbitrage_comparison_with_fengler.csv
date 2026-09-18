@@ -1,0 +1,6 @@
+method,n_slices,frac_slices_butterfly_viol,pct_pairs_calendar_viol,frac_slices_butterfly_viol_observed_range
+CubicSpline,9504,0.8422,91.19869050616973,0.81956
+SSVI,9504,0.0,0.0,0.0
+SVI,9504,0.0425,59.97827857724681,
+ThinPlate,9502,0.9087,35.557794006547475,0.89423
+Fengler,1585,0.4473186119873817,1.7228464419475655,0.03785488958990536

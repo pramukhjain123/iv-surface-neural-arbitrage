@@ -1,0 +1,15 @@
+column,type,description,n_missing,min,max
+date,date,Trading date (NSE settlement date) of the quote.,0,2020-01-01 00:00:00,2026-01-30 00:00:00
+expiry,date,Option expiry date.,0,2020-01-09 00:00:00,2026-12-29 00:00:00
+instrument,string,"NSE instrument code, OPTIDX or IDO after the 2024-07-08 rename.",0,OPT,OPT
+opt_type,string,"CE (call) or PE (put). The panel is OTM-only: CE for k>0, PE for k<0.",0,CE,PE
+strike,float,Strike price in index points.,0,6000.0,33000.0
+settle_price,float,Daily settlement price from the raw bhavcopy zip (SETTLE_PR).,0,0.1,2590.45
+oi,float,Open interest at close.,0,25.0,14161800.0
+volume,float,Contracts traded that day. Panel requires >= 10 (filter F2).,0,10.0,1756979.0
+tau,float,"Time to expiry in years, act/365. Panel requires 7/365 <= tau <= 1 (F1).",0,0.019178082191780823,1.0
+r,float,"Risk-free rate used for discounting, from 03_riskfree.py.",0,0.04,0.065
+fwd,float,"Forward price for that (date, expiry). See fwd_source.",0,7603.6,28245.04940317394
+fwd_source,string,"How fwd was obtained: 'futures' (matched futures settlement), 'put_call_parity' (single-strike parity, both legs liquid), or 'put_call_parity_illiquid' (parity without the liquidity screen).",0,futures,put_call_parity_illiquid
+k,float,Log forward moneyness log(strike/fwd). Panel requires -0.35 <= k <= 0.25 (F3).,0,-0.34997001606358374,0.2498493689996209
+iv,float,"Black-76 implied volatility, decimal (0.20 = 20%). Newton with a Brent fallback.",0,0.0692948503818692,1.2619077593642565

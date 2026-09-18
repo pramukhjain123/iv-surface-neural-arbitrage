@@ -1,0 +1,4 @@
+fwd_source,rows_before_f6,rows_dropped_f6,slices_before_f6,drop_rate_pct
+futures,254788,92554,4145,36.32588661946402
+put_call_parity,217684,63189,7350,29.02785689347862
+put_call_parity_illiquid,1601,208,794,12.991880074953155

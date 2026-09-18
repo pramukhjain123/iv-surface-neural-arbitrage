@@ -1,0 +1,5 @@
+method,n_expiry_pairs,frac_pairs_with_any_viol,mean_frac_grid_points_viol
+CubicSpline,7993,0.912,0.3525
+SSVI,7993,0.0,0.0
+SVI,7993,0.5876,0.2228
+ThinPlate,7993,0.3557,0.0427

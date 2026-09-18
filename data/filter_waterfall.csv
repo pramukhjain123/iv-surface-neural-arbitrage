@@ -1,0 +1,9 @@
+filter,rows_remaining,slices_remaining,dropped_this_step
+F0_start (options with forward),2944060,29135,
+F1_tau_range,2162119,15671,781941.0
+F2_liquidity_vol_ge_10,714131,12370,1447988.0
+F3_moneyness_band,705570,12348,8561.0
+F4_above_intrinsic,681835,12346,23735.0
+F5_otm_only,474073,12289,207762.0
+F6_static_arbitrage (violations dropped: 155951),318122,12289,155951.0
+F7_min_8_strikes_per_slice,307458,9438,10664.0

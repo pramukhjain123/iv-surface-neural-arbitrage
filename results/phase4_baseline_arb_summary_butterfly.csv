@@ -1,0 +1,5 @@
+method,n_slices,frac_slices_with_any_viol,mean_frac_grid_points_viol,n_slices_w_neg
+CubicSpline,9504,0.8422,0.1247,0
+SSVI,9504,0.0,0.0,0
+SVI,9504,0.0425,0.004,0
+ThinPlate,9502,0.9087,0.1404,0
